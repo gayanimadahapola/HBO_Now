@@ -14,6 +14,9 @@
 		0AA3187A23E148280033FF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3187823E148280033FF18 /* LaunchScreen.storyboard */; };
 		0AA3188523E148280033FF18 /* HBO_NowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3188423E148280033FF18 /* HBO_NowTests.swift */; };
 		0AA3189023E148280033FF18 /* HBO_NowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3188F23E148280033FF18 /* HBO_NowUITests.swift */; };
+		0AA3189F23E149330033FF18 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3189E23E149330033FF18 /* SignInViewController.swift */; };
+		0AA318A223E1495A0033FF18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA318A123E1495A0033FF18 /* RegisterViewController.swift */; };
+		0AA318A423E149B10033FF18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA318A323E149B10033FF18 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0AA3188B23E148280033FF18 /* HBO_NowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBO_NowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3188F23E148280033FF18 /* HBO_NowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBO_NowUITests.swift; sourceTree = "<group>"; };
 		0AA3189123E148280033FF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA3189E23E149330033FF18 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0AA318A123E1495A0033FF18 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0AA318A323E149B10033FF18 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0AA3186F23E148260033FF18 /* AppDelegate.swift */,
-				0AA3187123E148260033FF18 /* ViewController.swift */,
+				0AA3189D23E148340033FF18 /* UIViewControllers */,
 				0AA3187323E148260033FF18 /* Main.storyboard */,
 				0AA3187623E148280033FF18 /* Assets.xcassets */,
 				0AA3187823E148280033FF18 /* LaunchScreen.storyboard */,
@@ -123,6 +129,17 @@
 				0AA3189123E148280033FF18 /* Info.plist */,
 			);
 			path = HBO_NowUITests;
+			sourceTree = "<group>";
+		};
+		0AA3189D23E148340033FF18 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3189E23E149330033FF18 /* SignInViewController.swift */,
+				0AA318A123E1495A0033FF18 /* RegisterViewController.swift */,
+				0AA318A323E149B10033FF18 /* HomeViewController.swift */,
+				0AA3187123E148260033FF18 /* ViewController.swift */,
+			);
+			path = UIViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA318A423E149B10033FF18 /* HomeViewController.swift in Sources */,
+				0AA318A223E1495A0033FF18 /* RegisterViewController.swift in Sources */,
+				0AA3189F23E149330033FF18 /* SignInViewController.swift in Sources */,
 				0AA3187223E148260033FF18 /* ViewController.swift in Sources */,
 				0AA3187023E148260033FF18 /* AppDelegate.swift in Sources */,
 			);
