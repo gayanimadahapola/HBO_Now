@@ -22,6 +22,8 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var confirmPassword: UITextField!
     @IBOutlet weak var zipCodeTextField: UITextField!
     
+    @IBOutlet weak var CheckboxButton: CheckBox!
+    
     @IBOutlet weak var txtViewPrivacy: UITextView!
     
     @IBOutlet weak var registerButton: UIButton!
@@ -34,17 +36,50 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setUpElements()
+     self.addUIStyles()
     }
     
-    func setUpElements() {
+    func addUIStyles(){
+        
+//        firstNameTextField.layer.cornerRadius = 10
+//        firstNameTextField.layer.maskedCorners = .layerMinXMinYCorner
         
     }
     
+    
     @IBAction func RegisterBtnTapped(_ sender: Any) {
+        
+        let validator = ValidateFields()
+        
+        if(validator.usernameValid(username: (emailTextField.text ?? "")) && validator.passwordValid(password: passwordTextField.text ?? "")) {
+            
+            let alert = Alert()
+            
+            Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) {
+                
+                authResult, error in
+                if ((error == nil)) {
+                    
+                    alert.showAlert(title: "Signed up successfully", message: "You have been successfully Signed up", buttonText: "Dashboard")
+                    
+                } else {
+                    
+                    alert.showAlert(title: "Error", message: "Error occured", buttonText: "Dashboard")
+                }
+                
+            }
+            
+        }else{
+            
+            let alert = Alert()
+            
+            alert.showAlert(title: "Error", message: "Username or password is invalid", buttonText: "Register")
+        }
+        
     }
-    
-    @IBAction func SignInBtnTapped(_ sender: Any) {
-    }
-    
+        
 }
+func SignInBtnTapped(_ sender: Any) {
+    }
+    
+

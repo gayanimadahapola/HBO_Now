@@ -17,6 +17,10 @@
 		0AA3189F23E149330033FF18 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3189E23E149330033FF18 /* SignInViewController.swift */; };
 		0AA318A223E1495A0033FF18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA318A123E1495A0033FF18 /* RegisterViewController.swift */; };
 		0AA318A423E149B10033FF18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA318A323E149B10033FF18 /* HomeViewController.swift */; };
+		0AA71DBE23E3BED500BCC289 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DBD23E3BED500BCC289 /* Alert.swift */; };
+		0AA71DC023E3C0F800BCC289 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DBF23E3C0F800BCC289 /* Validation.swift */; };
+		0AA71DC223E3C72000BCC289 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DC123E3C72000BCC289 /* Checkbox.swift */; };
+		0AA71DC723E3CCE400BCC289 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DC623E3CCE400BCC289 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		0AA3189E23E149330033FF18 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0AA318A123E1495A0033FF18 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0AA318A323E149B10033FF18 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0AA71DBD23E3BED500BCC289 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		0AA71DBF23E3C0F800BCC289 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		0AA71DC123E3C72000BCC289 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		0AA71DC623E3CCE400BCC289 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				0AA3186F23E148260033FF18 /* AppDelegate.swift */,
-				0AA3189D23E148340033FF18 /* UIViewControllers */,
 				0AA3187323E148260033FF18 /* Main.storyboard */,
+				0AA71DC523E3CC1300BCC289 /* Custom Views */,
+				0AA71DC423E3CB2400BCC289 /* Helpers */,
+				0AA3189D23E148340033FF18 /* UIViewControllers */,
 				0AA3187623E148280033FF18 /* Assets.xcassets */,
 				0AA3187823E148280033FF18 /* LaunchScreen.storyboard */,
 				0AA3187B23E148280033FF18 /* Info.plist */,
@@ -140,6 +150,25 @@
 				0AA3187123E148260033FF18 /* ViewController.swift */,
 			);
 			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		0AA71DC423E3CB2400BCC289 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0AA71DBF23E3C0F800BCC289 /* Validation.swift */,
+				0AA71DC623E3CCE400BCC289 /* DatabaseManager.swift */,
+			);
+			name = Helpers;
+			path = ../Helpers;
+			sourceTree = "<group>";
+		};
+		0AA71DC523E3CC1300BCC289 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AA71DBD23E3BED500BCC289 /* Alert.swift */,
+				0AA71DC123E3C72000BCC289 /* Checkbox.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,11 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA71DC223E3C72000BCC289 /* Checkbox.swift in Sources */,
+				0AA71DBE23E3BED500BCC289 /* Alert.swift in Sources */,
 				0AA318A423E149B10033FF18 /* HomeViewController.swift in Sources */,
 				0AA318A223E1495A0033FF18 /* RegisterViewController.swift in Sources */,
 				0AA3189F23E149330033FF18 /* SignInViewController.swift in Sources */,
 				0AA3187223E148260033FF18 /* ViewController.swift in Sources */,
 				0AA3187023E148260033FF18 /* AppDelegate.swift in Sources */,
+				0AA71DC023E3C0F800BCC289 /* Validation.swift in Sources */,
+				0AA71DC723E3CCE400BCC289 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
