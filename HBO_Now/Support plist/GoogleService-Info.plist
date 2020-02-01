@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>623335078166-6ght5oimtrpvfbs2rpvfla40bgvmd6m1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.623335078166-6ght5oimtrpvfbs2rpvfla40bgvmd6m1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyApJcq6exz4xNIW0ciSJT_De-oCM7DCmMM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>623335078166</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nibm.dream.HBO-Now</string>
+	<key>PROJECT_ID</key>
+	<string>hbo-now-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hbo-now-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:623335078166:ios:1465479fcca80228037837</string>
+	<key>DATABASE_URL</key>
+	<string>https://hbo-now-app.firebaseio.com</string>
+</dict>
+</plist>

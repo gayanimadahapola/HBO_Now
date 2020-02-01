@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
 
@@ -36,13 +37,13 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-     self.addUIStyles()
+     self.addUIStylesToRegister()
     }
     
-    func addUIStyles(){
+    func addUIStylesToRegister(){
         
-//        firstNameTextField.layer.cornerRadius = 10
-//        firstNameTextField.layer.maskedCorners = .layerMinXMinYCorner
+       //firstNameTextField.layer.cornerRadius = 10
+       //firstNameTextField.layer.maskedCorners = .layerMinXMinYCorner
         
     }
     

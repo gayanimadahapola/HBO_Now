@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
     
@@ -26,9 +27,12 @@ class SignInViewController: UIViewController {
         EmailTextField.layer.cornerRadius = 10
         PasswordTextField.layer.cornerRadius = 10
         
+        
         SubscriptionButton.layer.cornerRadius = 5
         SubscriptionButton.layer.borderColor = UIColor.gray.cgColor
+        
     }
+    
     
     @IBAction func SignInButtonTapped(_ sender: Any) {
         

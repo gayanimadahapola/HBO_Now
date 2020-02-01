@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,12 @@
 		0AA71DC023E3C0F800BCC289 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DBF23E3C0F800BCC289 /* Validation.swift */; };
 		0AA71DC223E3C72000BCC289 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DC123E3C72000BCC289 /* Checkbox.swift */; };
 		0AA71DC723E3CCE400BCC289 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA71DC623E3CCE400BCC289 /* DatabaseManager.swift */; };
+		0AD0680023E535530081EE2D /* TestCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AD067FE23E535530081EE2D /* TestCoreData.xcdatamodeld */; };
+		0AD0680223E536280081EE2D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0680123E536280081EE2D /* TableViewController.swift */; };
+		0AE1819C23E4792F00775F23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1819B23E4792E00775F23 /* GoogleService-Info.plist */; };
+		590BFFD6249CB702FBC0F1DC /* Pods_HBO_Now_HBO_NowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB85CE7EA79E737C4E1F09A /* Pods_HBO_Now_HBO_NowUITests.framework */; };
+		E213F31D4445F6D354258E62 /* Pods_HBO_NowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E97960557FC3841C1FD10A /* Pods_HBO_NowTests.framework */; };
+		E531FF228948FD5ED9441DDE /* Pods_HBO_Now.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C504133BF8E2040B73A84317 /* Pods_HBO_Now.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E97960557FC3841C1FD10A /* Pods_HBO_NowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_NowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3186C23E148260033FF18 /* HBO_Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBO_Now.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3186F23E148260033FF18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA3187123E148260033FF18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +68,17 @@
 		0AA71DBF23E3C0F800BCC289 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		0AA71DC123E3C72000BCC289 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		0AA71DC623E3CCE400BCC289 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		0AD067FF23E535530081EE2D /* TestCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCoreData.xcdatamodel; sourceTree = "<group>"; };
+		0AD0680123E536280081EE2D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0AE1819B23E4792E00775F23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1889684C387E4A673320C2F2 /* Pods-HBO_Now-HBO_NowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_Now-HBO_NowUITests.release.xcconfig"; path = "Target Support Files/Pods-HBO_Now-HBO_NowUITests/Pods-HBO_Now-HBO_NowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		333757F39D198B0583523AFB /* Pods-HBO_Now-HBO_NowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_Now-HBO_NowUITests.debug.xcconfig"; path = "Target Support Files/Pods-HBO_Now-HBO_NowUITests/Pods-HBO_Now-HBO_NowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8760B30058B2D17CE940FCA3 /* Pods-HBO_NowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_NowTests.release.xcconfig"; path = "Target Support Files/Pods-HBO_NowTests/Pods-HBO_NowTests.release.xcconfig"; sourceTree = "<group>"; };
+		C504133BF8E2040B73A84317 /* Pods_HBO_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFAD70F4E82F35D0C4F5DEC /* Pods-HBO_NowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_NowTests.debug.xcconfig"; path = "Target Support Files/Pods-HBO_NowTests/Pods-HBO_NowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB85CE7EA79E737C4E1F09A /* Pods_HBO_Now_HBO_NowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_Now_HBO_NowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBD41BB7652EF3E46DFB8A7 /* Pods-HBO_Now.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_Now.debug.xcconfig"; path = "Target Support Files/Pods-HBO_Now/Pods-HBO_Now.debug.xcconfig"; sourceTree = "<group>"; };
+		FB9D689366877C01ED4018D0 /* Pods-HBO_Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO_Now.release.xcconfig"; path = "Target Support Files/Pods-HBO_Now/Pods-HBO_Now.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E531FF228948FD5ED9441DDE /* Pods_HBO_Now.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E213F31D4445F6D354258E62 /* Pods_HBO_NowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590BFFD6249CB702FBC0F1DC /* Pods_HBO_Now_HBO_NowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +116,8 @@
 				0AA3188323E148280033FF18 /* HBO_NowTests */,
 				0AA3188E23E148280033FF18 /* HBO_NowUITests */,
 				0AA3186D23E148260033FF18 /* Products */,
+				C02DC95B490385E7C2F35A5B /* Pods */,
+				A0862599A7FA0428956FA156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,14 +134,16 @@
 		0AA3186E23E148260033FF18 /* HBO_Now */ = {
 			isa = PBXGroup;
 			children = (
+				0AA3187B23E148280033FF18 /* Info.plist */,
 				0AA3186F23E148260033FF18 /* AppDelegate.swift */,
-				0AA3187323E148260033FF18 /* Main.storyboard */,
 				0AA71DC523E3CC1300BCC289 /* Custom Views */,
 				0AA71DC423E3CB2400BCC289 /* Helpers */,
+				0AA3187323E148260033FF18 /* Main.storyboard */,
 				0AA3189D23E148340033FF18 /* UIViewControllers */,
 				0AA3187623E148280033FF18 /* Assets.xcassets */,
 				0AA3187823E148280033FF18 /* LaunchScreen.storyboard */,
-				0AA3187B23E148280033FF18 /* Info.plist */,
+				0AE1819D23E4793800775F23 /* Support plist */,
+				0AD067FE23E535530081EE2D /* TestCoreData.xcdatamodeld */,
 			);
 			path = HBO_Now;
 			sourceTree = "<group>";
@@ -148,6 +173,7 @@
 				0AA318A123E1495A0033FF18 /* RegisterViewController.swift */,
 				0AA318A323E149B10033FF18 /* HomeViewController.swift */,
 				0AA3187123E148260033FF18 /* ViewController.swift */,
+				0AD0680123E536280081EE2D /* TableViewController.swift */,
 			);
 			path = UIViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +197,37 @@
 			path = "Custom Views";
 			sourceTree = "<group>";
 		};
+		0AE1819D23E4793800775F23 /* Support plist */ = {
+			isa = PBXGroup;
+			children = (
+				0AE1819B23E4792E00775F23 /* GoogleService-Info.plist */,
+			);
+			path = "Support plist";
+			sourceTree = "<group>";
+		};
+		A0862599A7FA0428956FA156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C504133BF8E2040B73A84317 /* Pods_HBO_Now.framework */,
+				DFB85CE7EA79E737C4E1F09A /* Pods_HBO_Now_HBO_NowUITests.framework */,
+				07E97960557FC3841C1FD10A /* Pods_HBO_NowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02DC95B490385E7C2F35A5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBD41BB7652EF3E46DFB8A7 /* Pods-HBO_Now.debug.xcconfig */,
+				FB9D689366877C01ED4018D0 /* Pods-HBO_Now.release.xcconfig */,
+				333757F39D198B0583523AFB /* Pods-HBO_Now-HBO_NowUITests.debug.xcconfig */,
+				1889684C387E4A673320C2F2 /* Pods-HBO_Now-HBO_NowUITests.release.xcconfig */,
+				CEFAD70F4E82F35D0C4F5DEC /* Pods-HBO_NowTests.debug.xcconfig */,
+				8760B30058B2D17CE940FCA3 /* Pods-HBO_NowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA3189423E148280033FF18 /* Build configuration list for PBXNativeTarget "HBO_Now" */;
 			buildPhases = (
+				8CFAE65B1C8F7268A8AE77C8 /* [CP] Check Pods Manifest.lock */,
 				0AA3186823E148260033FF18 /* Sources */,
 				0AA3186923E148260033FF18 /* Frameworks */,
 				0AA3186A23E148260033FF18 /* Resources */,
+				EDBB4DEB82F8F91E964B0FDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA3189723E148280033FF18 /* Build configuration list for PBXNativeTarget "HBO_NowTests" */;
 			buildPhases = (
+				12143B02573BD523CA942074 /* [CP] Check Pods Manifest.lock */,
 				0AA3187C23E148280033FF18 /* Sources */,
 				0AA3187D23E148280033FF18 /* Frameworks */,
 				0AA3187E23E148280033FF18 /* Resources */,
@@ -213,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA3189A23E148280033FF18 /* Build configuration list for PBXNativeTarget "HBO_NowUITests" */;
 			buildPhases = (
+				F8A9F470B152C0E04B973975 /* [CP] Check Pods Manifest.lock */,
 				0AA3188723E148280033FF18 /* Sources */,
 				0AA3188823E148280033FF18 /* Frameworks */,
 				0AA3188923E148280033FF18 /* Resources */,
+				7097E40AA51745095057BA27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +339,7 @@
 			files = (
 				0AA3187A23E148280033FF18 /* LaunchScreen.storyboard in Resources */,
 				0AA3187723E148280033FF18 /* Assets.xcassets in Resources */,
+				0AE1819C23E4792F00775F23 /* GoogleService-Info.plist in Resources */,
 				0AA3187523E148260033FF18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +360,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12143B02573BD523CA942074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO_NowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7097E40AA51745095057BA27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO_Now-HBO_NowUITests/Pods-HBO_Now-HBO_NowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO_Now-HBO_NowUITests/Pods-HBO_Now-HBO_NowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO_Now-HBO_NowUITests/Pods-HBO_Now-HBO_NowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFAE65B1C8F7268A8AE77C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO_Now-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBB4DEB82F8F91E964B0FDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO_Now/Pods-HBO_Now-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO_Now/Pods-HBO_Now-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO_Now/Pods-HBO_Now-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A9F470B152C0E04B973975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO_Now-HBO_NowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AA3186823E148260033FF18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,8 +474,10 @@
 				0AA318A223E1495A0033FF18 /* RegisterViewController.swift in Sources */,
 				0AA3189F23E149330033FF18 /* SignInViewController.swift in Sources */,
 				0AA3187223E148260033FF18 /* ViewController.swift in Sources */,
+				0AD0680223E536280081EE2D /* TableViewController.swift in Sources */,
 				0AA3187023E148260033FF18 /* AppDelegate.swift in Sources */,
 				0AA71DC023E3C0F800BCC289 /* Validation.swift in Sources */,
+				0AD0680023E535530081EE2D /* TestCoreData.xcdatamodeld in Sources */,
 				0AA71DC723E3CCE400BCC289 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,9 +651,12 @@
 		};
 		0AA3189523E148280033FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBD41BB7652EF3E46DFB8A7 /* Pods-HBO_Now.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HBO_Now/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,6 +664,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nibm.dream.HBO-Now";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -500,9 +673,12 @@
 		};
 		0AA3189623E148280033FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9D689366877C01ED4018D0 /* Pods-HBO_Now.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HBO_Now/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,6 +686,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nibm.dream.HBO-Now";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_INSTALLED_PRODUCT = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -517,6 +695,7 @@
 		};
 		0AA3189823E148280033FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFAD70F4E82F35D0C4F5DEC /* Pods-HBO_NowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +716,7 @@
 		};
 		0AA3189923E148280033FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8760B30058B2D17CE940FCA3 /* Pods-HBO_NowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,6 +737,7 @@
 		};
 		0AA3189B23E148280033FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333757F39D198B0583523AFB /* Pods-HBO_Now-HBO_NowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +757,7 @@
 		};
 		0AA3189C23E148280033FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1889684C387E4A673320C2F2 /* Pods-HBO_Now-HBO_NowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -633,6 +815,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0AD067FE23E535530081EE2D /* TestCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0AD067FF23E535530081EE2D /* TestCoreData.xcdatamodel */,
+			);
+			currentVersion = 0AD067FF23E535530081EE2D /* TestCoreData.xcdatamodel */;
+			path = TestCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0AA3186423E148260033FF18 /* Project object */;
 }
